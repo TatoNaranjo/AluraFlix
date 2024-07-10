@@ -1,0 +1,12 @@
+{
+  "videos": [
+    {
+      "id": "d495",
+      "title": "La importancia de Estadística en Data Science#AluraTips",
+      "category": "Innovación y Gestión",
+      "image": "https://i.ytimg.com/vi/fTWD5Pnxkck/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBC3VhfBeAGO1O0lUJCxpDgyINKhA",
+      "videoURL": "https://www.youtube.com/watch?v=fTWD5Pnxkck",
+      "description": "En este video nuestra instructora, Erika Bellido, nos explicará el fascinante mundo de la estadística aplicada a la ciencia de datos. La estadística es una herramienta esencial para cualquier data scientist, ya que permite analizar y comprender grandes volúmenes de datos de manera eficiente y precisa."
+    }
+  ]
+}
