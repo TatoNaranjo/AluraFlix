@@ -26,7 +26,19 @@ const StyledMain = styled.main`
   h3 {
     font-size: 20px;
     text-transform: uppercase;
+    text-align: center;
   }
+
+      //Mobile Queries
+      @media (max-width:480px) {
+        h1{
+          font-size:48px;
+          text-align: center;
+        }
+        h3{
+          font-size:16px;
+        }
+      }
 `;
 
 const StyledForm = styled.form`
@@ -42,6 +54,14 @@ const StyledForm = styled.form`
     text-align: left;
     font-size: 36px;
   }
+
+    //Mobile Queries
+    @media (max-width:480px) {
+    width: auto;
+    div{
+      width:320px;
+    }
+  }
 `;
 
 const StyledButtonDivider = styled.div`
@@ -53,6 +73,16 @@ const StyledFieldContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
+
+  // Tablet Queries
+  @media (max-width:1024px){
+    flex-wrap: nowrap;
+    flex-direction: column;
+    div{
+      width: 100%;
+    }
+  }
+
 `;
 export default function NewVideo() {
   const context = useContext(videoContext);

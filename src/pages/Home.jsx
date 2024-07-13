@@ -7,6 +7,14 @@ import EditVideoForm from "../components/EditVideoForm";
 
 const StyledCategoryContainer = styled.section`
   margin: 24px;
+  // Mobile Queries
+  @media (max-width:1024px){
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
 `;
 
 export default function Home() {

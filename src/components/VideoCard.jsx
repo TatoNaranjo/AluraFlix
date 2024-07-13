@@ -9,8 +9,13 @@ const ButtonContainer = styled.div`
   width: 404px;
   display: flex;
   justify-content: space-between;
-  position: absolute;
+  position: relative;
   margin: 12px;
+  top:60px;
+  // Mobile Queries
+  @media (max-width:480px) {
+    width:350px;
+  }
 `;
 const StyledButton = styled.button`
   background: #000;
@@ -33,6 +38,7 @@ const StyledContainer = styled.div`
   width: 430px;
   border-radius: 15px 15px 0 0;
   color: #f5f5f5;
+  overflow:auto;
   h2 {
     margin: 0;
     overflow: hidden;
@@ -41,6 +47,11 @@ const StyledContainer = styled.div`
     max-height: 55px;
     overflow: hidden;
     margin: 0;
+  }
+
+    // Mobile Queries
+    @media (max-width:480px) {
+    width:372px;
   }
 `;
 
@@ -51,6 +62,11 @@ const ImageContainer = styled.div`
     border-radius: 15px 15px 0 0;
     height: 260px;
     width: 430px;
+      // Mobile Queries
+  @media (max-width:480px) {
+    width:372px;
+    
+  }
   }
 `;
 const FooterContainer = styled.footer`

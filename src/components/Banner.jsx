@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const StyledContainerSection = styled.section`
   box-sizing: border-box;
-  width: 100%;
+  
   height: 832px;
   background-image: ${(props) => `url(${props.$videoImage})`};
   background-position: 50%;
@@ -12,6 +12,10 @@ const StyledContainerSection = styled.section`
   background-repeat: no-repeat;
   color: #F5F5F5;
   z-index: 0;
+
+  @media (max-width:480px){
+    display:none;
+  }
 `;
 const BackgroundCover = styled.div`
   position: absolute;
@@ -41,6 +45,12 @@ const StyledSection = styled.div`
     box-shadow: 0px 0px 17px 8px ${props=>props.$categoryColor};
 
   }
+  // Tablet Queries 
+  @media (max-width:1024px) {
+    img{
+      max-width: 430px;
+    }
+  }
 `;
 const StyledTextContent = styled.div`
   display: flex;
@@ -59,6 +69,14 @@ const StyledTextContent = styled.div`
     margin:0;
     margin-top: 12px;
   }
+
+  // Tablet Queries
+  @media (max-width:1024px) {
+    h1{
+      font-size: 32px;
+    }
+    
+  }
 `;
 const StyledCategoryHeaderTag = styled.div`
   display: flex;
@@ -70,6 +88,13 @@ const StyledCategoryHeaderTag = styled.div`
   background-color: ${(props) => props.$categoryColor};
   h4 {
     margin: 0;
+  }
+
+  // Tablet Queries
+  @media (max-width:1024px) {
+    h4{
+      font-size: 32px;
+    }
   }
 `;
 

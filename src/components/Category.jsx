@@ -7,6 +7,22 @@ import VideoCard from "./VideoCard";
 const StyledCardContainer = styled.section`
 display:flex;
 gap:12px;
+
+overflow-y: hidden;
+
+// Tablet Queries
+@media (max-width:1024px) {
+
+  max-width: 800px;
+  overflow:scroll;
+
+}
+
+// Mobile Queries
+@media (max-width:480px) {
+  flex-wrap:wrap;
+}
+
 `
 const StyledCategoryTag = styled.div`
 color:#F5F5F5;

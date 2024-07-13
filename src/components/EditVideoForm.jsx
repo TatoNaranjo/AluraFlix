@@ -23,6 +23,12 @@ const StyledContainer = styled.div`
   height: 100%;
   z-index: 15;
   color: #fff;
+
+  // Mobile Queries
+  @media (max-width:480px){
+    position: sticky;
+  }
+
 `;
 const StyledBackground = styled.div`
   position: absolute;
@@ -33,7 +39,7 @@ const StyledBackground = styled.div`
 `;
 
 const StyledDialog = styled.div`
-  position: absolute;
+
   width: 100%;
   height: 100%;
   z-index: 6;
@@ -41,16 +47,26 @@ const StyledDialog = styled.div`
     width: 32px;
     height: 32px;
   }
+
+    // Tablet Queries
+    @media (max-width:1024px){
+    position: relative;
+    top:30px;
+  }
+
+    // Mobile Queries
+    @media (max-width:480px){
+    position: initial;
+  }
 `;
 
 const StyledForm = styled.form`
-  position: absolute;
-  width: 100%;
-  height: 100%;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top:50px;
   z-index: 30;
   header {
     width: 40%;
@@ -63,6 +79,24 @@ const StyledForm = styled.form`
     text-align: left;
     font-size: 60px;
     font-weight: 900;
+  }
+
+  // Mobile Queries
+  @media (max-width:480px){
+  
+      flex-wrap: nowrap;
+
+      flex-direction: column;
+      margin:0;
+      padding:0;
+      div{
+        width:100%;
+        padding: 0 24px;
+      }
+      legend{
+        font-size:28px;
+      }
+      padding:24px;
   }
 `;
 

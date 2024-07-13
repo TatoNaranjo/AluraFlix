@@ -12,7 +12,12 @@ const StyledInput = styled.textarea`
   border-radius: 10px;
   padding: 16px 12px;
   resize: none;
-  height: 200px;
+  height: 100px;
+
+  // Mobile Queries
+  @media (max-width:480px){
+    height: 100px;
+  }
 `;
 const StyledFormInput = styled.div`
   display: flex;
