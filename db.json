@@ -1,12 +1,44 @@
 {
   "videos": [
     {
-      "id": "d495",
       "title": "La importancia de Estadística en Data Science#AluraTips",
       "category": "Innovación y Gestión",
       "image": "https://i.ytimg.com/vi/fTWD5Pnxkck/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBC3VhfBeAGO1O0lUJCxpDgyINKhA",
       "videoURL": "https://www.youtube.com/watch?v=fTWD5Pnxkck",
-      "description": "En este video nuestra instructora, Erika Bellido, nos explicará el fascinante mundo de la estadística aplicada a la ciencia de datos. La estadística es una herramienta esencial para cualquier data scientist, ya que permite analizar y comprender grandes volúmenes de datos de manera eficiente y precisa."
+      "description": "En este video nuestra instructora, Erika Bellido, nos explicará el fascinante mundo de la estadística aplicada a la ciencia de datos. La estadística es una herramienta esencial para cualquier data scientist, ya que permite analizar y comprender grandes volúmenes de datos de manera eficiente y precisa.",
+      "id": "d495"
+    },
+    {
+      "id": "c10d",
+      "title": "Habilidades blandas: qué son y cómo desarrollarlas",
+      "category": "Innovación y Gestión",
+      "image": "https://i.ytimg.com/vi/BPwvzGGajEQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBxvITDqkLYahOFFEmmuhe9sUdpqw",
+      "videoURL": "https://www.youtube.com/watch?v=BPwvzGGajEQ",
+      "description": "👀 ¿Terminaste el colegio y aún no sabes qué carrera o profesión deberías estudiar? \n\n💥 Desde que la tecnología llegó a nuestras vidas han nacido un montón de profesiones y carreras relacionadas con la industria. Puede ser confuso entender cuál de todas estudiar, es por eso que en este video Angela Ocando y Cesar Cordero te contarán un poquito de cómo han nacido estas profesiones y cómo deberías elegir tu profesión del futuro.\n\n🌟 Este es el octavo video de nuestra serie: \"Ya terminé el colegio, ¿y ahora qué?\", donde te estaremos contando sobre las habilidades blandas, su importancia y cómo desarrollarlas. (Míralo como un manual de supervivencia para la adultez 👾).\n"
+    },
+    {
+      "title": "¿Qué son las Soft Skills?",
+      "category": "Innovación y Gestión",
+      "image": "https://i.ytimg.com/vi/vhwspfvI52k/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDxc_0rcRKCUTqYZXq2YUcjczMJNg",
+      "videoURL": "https://www.youtube.com/watch?v=vhwspfvI52k",
+      "description": "¿Qué son las Softskills y por qué es tan importante desarrollarlas para posicionarse en el mercado laboral? En este video de Alura Tips, Pri Stuani nos habla de las habilidades más buscadas por las empresas en sus profesionales y cómo las Soft Skills te ayudan en el día a día.",
+      "id": "9e89"
+    },
+    {
+      "id": "eb96",
+      "title": "🗺️ Ruta de aprendizaje para convertirte en Desarrollador Web (Frontend Roadmap)",
+      "category": "Front-End",
+      "image": "https://i.ytimg.com/vi/CvfB4KzP4us/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCg1hMXiFYXAMTAba8SmVZcmjjjeg",
+      "videoURL": "https://www.youtube.com/watch?v=CvfB4KzP4us",
+      "description": "¿Qué tienes que aprender para convertirte en desarrollador web? ¡Repasamos en directo una de las muchas rutas que existen para que consigas tus objetivos!"
+    },
+    {
+      "id": "2b2a",
+      "title": "Roadmap de Desarrollo Web Backend en 2024",
+      "category": "Back-End",
+      "image": "https://i.ytimg.com/vi/lDk0t0y4TGk/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBV34LAVcjHvLBseTo_sE8yGA4XaQ",
+      "videoURL": "https://www.youtube.com/watch?v=lDk0t0y4TGk",
+      "description": "Cuando hablamos de desarrollar aplicaciones web Backend o ser un profesional que se dedica a crear este tipo de aplicaciones es muy útil tener una idea de todo lo que podría conllevar dedicarnos a esta área, es por esto que en este video les mostrare una ruta de aprendizaje o Roadmap que contiene la mayoría de temas, tecnologías, y conceptos relacionados al desarrollo de aplicaciones web Backend, en los que podríamos encontrar lenguajes de programación de backend, frameworks de backend, bases de datos SQL y NoSQL, servicios de la nube, APIs (REST API, GraphQL, Websockets), y herramientas de automatizacion de despliegue.\n"
     }
   ]
 }
